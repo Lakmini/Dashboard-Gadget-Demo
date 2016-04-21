@@ -1,6 +1,6 @@
 <%
 //make the db connection 
-var db = new Database("jdbc:mysql://localhost:3306/UnifiedDashboards", "root", "");
+var db = new Database("jdbc:mysql://localhost:3306/test", "root", "");
 //function to get data from the db
 function bloggerData() {
     //db query to get month and the pageviews data set from db
