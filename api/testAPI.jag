@@ -1,0 +1,15 @@
+<%
+//make the db connection 
+var db = new Database("jdbc:mysql://localhost:3306/UnifiedDashboards", "root", "");
+//function to get data from the db
+function bloggerData() {
+    //db query to get month and the pageviews data set from db
+    var query_blogger_data = "SELECT * FROM test;";
+    var bloggerDataSet = db.query(query_blogger_data);     
+    print(bloggerDataSet);
+    return bloggerDataSet;
+}
+bloggerData();
+db.close();
+%>
+

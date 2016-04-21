@@ -1,0 +1,10 @@
+{
+   "id":"test",
+   "title":"Blogger Audience",
+   "type":"gadget",
+   "thumbnail":"store://gadget/blogger-chart/index.png",
+   "data":{
+      "url":"store://gadget/blogger-chart/index.xml"
+   }
+}
+
